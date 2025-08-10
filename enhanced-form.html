@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Assignment Form</title>
+</head>
+<body>
+    <br>
+  <form>
+    <!-- Login Section -->
+    <fieldset style="width: 400px; margin-bottom: 20px;">
+      <legend style="text-align: left;">Login</legend>
+      <div style="margin-bottom: 10px;">
+        <label for="username">Username*</label><br>
+        <input type="text" id="username" placeholder="Enter Username">
+      </div>
+      <div>
+        <label for="password">Password*</label><br>
+        <input type="password" id="password" placeholder="Password">
+      </div>
+    </fieldset>
+
+    <!-- Gender Section -->
+    <fieldset style="width: 400px; margin-bottom: 20px;">
+      <legend style="text-align: left;">Gender*</legend>
+      <div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      </div>
+    </fieldset>
+
+    <!-- Programming Skill Section -->
+    <fieldset style="width: 400px; margin-bottom: 20px;">
+      <legend style="text-align: left;">Programming Skill</legend>
+      <div>
+        <input type="checkbox" id="java" name="skill" value="Java">
+        <label for="java">Java</label>
+        <input type="checkbox" id="cpp" name="skill" value="C++" checked>
+        <label for="cpp">C++</label>
+        <input type="checkbox" id="csharp" name="skill" value="C#">
+        <label for="csharp">C#</label>
+      </div>
+    </fieldset>
+
+    <!-- Fruit Section -->
+    <fieldset style="width: 400px; margin-bottom: 20px;">
+      <legend style="text-align: left;">Fruit</legend>
+      <label for="fruit">Choose a fruit:</label>
+      <select id="fruit" name="fruit">
+        <option value="banana" selected>Banana</option>
+        <option value="apple">Apple</option>
+        <option value="orange">Orange</option>
+      </select>
+    </fieldset>
+
+    <!-- Comment Section -->
+     <label for="comments">Comments</label><br>
+    <textarea rows="4" cols="50" placeholder="Enter your comment here"></textarea>
+    <br><br>
+
+    <!-- Buttons -->
+    <input type="submit" value="SEND">
+    <input type="reset" value="RESET">
+
+  </form>
+  <br>
+  <br>
+     <table border="3" cellpadding="1" cellspacing="2">
+        <tr style= "background-color: lightgray">
+            <th>Description</th>
+            <th>Size</th>
+            <th>Weight</th>
+            <th>Speed</th>
+        </tr>
+
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                    <td><img src="images/38 Special.webp" alt=".38 Special" width="150"></td>
+                    <td>.38 Special</td>
+                    </tr>
+                </table>
+            </td> 
+            <td>Five-inch barrel.</td>
+            <td>Twenty ounces.</td>
+            <td>Six rounds in four seconds.</td>
+        </tr>
+
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                <td><img src="images/Rhinoceros.webp" alt="Rhinoceros" width="150"></td>
+                <td>Rhinoceros</td>
+                </tr>
+                </table>
+            </td>
+            <td>Twelve feet, horn to tail.</td>
+            <td>Up to two tons.</td>
+            <td>Thirty-five miles per hour in bursts.</td>
+        </tr>
+
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                <td><img src="images/Broad axe.webp" alt="Broad Axe" width="150"></td>
+                <td>Broad Axe</td>
+                </tr>
+                </table>
+            </td>
+            <td>Thirty-inch blade.</td>
+            <td>Twelve pounds.</td>
+            <td>Sixty miles per hour on impact.</td>
+        </tr>
+    </table>
+</body>
+</html>
